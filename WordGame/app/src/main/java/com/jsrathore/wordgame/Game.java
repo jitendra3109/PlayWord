@@ -25,8 +25,8 @@ public class Game extends AppCompatActivity implements View.OnClickListener {
     public String[] str1=new String[5];
 
     public char c1,c2,c3,c4;
-    public int temp_val;
-    public String str,s1,s2,s3,s4;
+    public int temp,i,v1,v2,v3,v4;
+    public String str,s1,s2,s3,s4,a1="",a2="",a3="",a4="";
     public boolean b1,b2,b3,b4;
     private TrieNode root;
     @Override
@@ -58,7 +58,8 @@ public class Game extends AppCompatActivity implements View.OnClickListener {
             Random rdm=new Random();
             int num=rdm.nextInt(1600);
             str=wordList.get(num);
-            temp_val=0;
+            temp=0;
+            i=0;
             b1=false;
             b2=false;
             b3=false;
@@ -95,9 +96,9 @@ public class Game extends AppCompatActivity implements View.OnClickListener {
 public void checkString(){
     if (b1==true && b2==true && b3==true && b4==true){
 
-        String s=str1[1]+str1[2]+str1[3]+str1[4];
+        String s=str1[0]+str1[1]+str1[2]+str1[3];
         Log.d(s, "String.............................");
-        if(isWord(s)==true){
+        if(isWord(s)){
             btn11.setText("hvhv");
         }else {
             btn22.setBackgroundColor(Color.GREEN);
@@ -105,6 +106,43 @@ public void checkString(){
 
     }
 }
+    public void setWordOnButton(int i,String ss){
+        switch (i){
+            case 1:
+                btn11.setText(ss);
+                break;
+            case 2:
+                btn22.setText(ss);
+                break;
+            case 3:
+                btn33.setText(ss);
+                break;
+            case 4:
+                btn44.setText(ss);
+                break;
+        }
+    }
+    public void EraseWordOnButton(int i,String ss){
+        switch (i){
+            case 1:
+                //button11.setText(ss);
+                btn11.setText("");
+                break;
+            case 2:
+                //button22.setText(ss);
+                btn22.setText("");
+                break;
+            case 3:
+                //button33.setText(ss);
+                btn33.setText("");
+                break;
+            case 4:
+                //button44.setText(ss);
+                btn44.setText("");
+                break;
+        }
+    }
+
     @Override
     public void onClick(View v) {
         switch (v.getId()){
@@ -112,19 +150,25 @@ public void checkString(){
 
                 if (b1==false) {
                     button11.setText("");
-                    btn11.setText(s1);
+                    //btn11.setText(s1);
                     b1=true;
-                    checkString();
+                    temp++;
+                    v1=temp;
                     //userWord.add(1,s1);
-                    str1[1]=s1;
+                    //a1=s1;
+                    str1[i++]=s1;
                     //temp_val++;
+                    setWordOnButton(temp,s1);
+                    checkString();
                 }else {
                     button11.setText(s1);
-                    btn11.setText("");
+                    //btn11.setText("");
                     b1=false;
-
+                    temp--;
                     //userWord.remove(1);
-                    str1[1]="";
+                    //a1="";
+                    str1[i--]="";
+                    EraseWordOnButton(v1,s1);
                     //temp_val--;
                 }
                 break;
@@ -132,18 +176,25 @@ public void checkString(){
 
                 if (b2==false) {
                     button22.setText("");
-                    btn22.setText(s2);
+                   // btn22.setText(s2);
                     b2=true;
-                    checkString();
+                    temp++;
+                    v2=temp;
                     //userWord.add(2,s2);
-                    str1[2]=s2;
+                    //a2=s2;
+                    str1[i++]=s2;
+                    setWordOnButton(temp,s2);
+                    checkString();
                     //temp_val++;
                 }else {
                     button22.setText(s2);
-                    btn22.setText("");
+                  //  btn22.setText("");
                     b2=false;
+                    temp--;
                     //userWord.remove(2);
-                    str1[2]="";
+                    //a2="";
+                    str1[i--]="";
+                    EraseWordOnButton(v2,s2);
                     //temp_val--;
                 }
                 break;
@@ -151,36 +202,50 @@ public void checkString(){
 
                 if (b3==false) {
                     button33.setText("");
-                    btn33.setText(s3);
+                   // btn33.setText(s3);
                     b3=true;
-                    checkString();
+                    temp++;
+                    v3=temp;
                    // userWord.add(3,s3);
-                    str1[3]=s3;
+                    //a3=s3;
+                    str1[i++]=s3;
+                    setWordOnButton(temp,s3);
+                    checkString();
                     //temp_val++;
                 }else {
                     button33.setText(s3);
-                    btn33.setText("");
+                    //btn33.setText("");
                     b3=false;
+                    temp--;
                    // userWord.remove(3);
-                    str1[3]="";
+                    //a3="";
+                    str1[i--]="";
+                    EraseWordOnButton(v3,s3);
                     //temp_val--;
                 }
                 break;
             case R.id.button4:
                 if (b4==false) {
                     button44.setText("");
-                    btn44.setText(s4);
+                    //btn44.setText(s4);
                     b4=true;
-                    checkString();
+                    temp++;
+                    v4=temp;
                    // userWord.add(4,s4);
-                    str1[4]=s4;
+                    //a4=s4;
+                    str1[i++]=s4;
+                    setWordOnButton(temp,s4);
+                    checkString();
                     //temp_val++;
                 }else {
                     button44.setText(s4);
-                    btn44.setText("");
+                    //btn44.setText("");
                     b4=false;
+                    temp--;
                     //userWord.remove(4);
-                    str1[4]="";
+                    //a4="";
+                    str1[i--]="";
+                    EraseWordOnButton(v4,s4);
                     //temp_val--;
                 }
                 break;
