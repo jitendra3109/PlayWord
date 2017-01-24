@@ -20,6 +20,7 @@
     <Button
         android:layout_below="@+id/textView"
         android:text="Play"
+        android:id="@+id/playGame"
         android:background="#453453"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
