@@ -1,6 +1,8 @@
 package com.jsrathore.wordgame;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
@@ -8,6 +10,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import java.io.BufferedReader;
@@ -23,13 +26,15 @@ import java.util.StringTokenizer;
 public class Game extends AppCompatActivity implements View.OnClickListener {
     private Button btn11 , btn22, btn33, btn44, button11,button22,button33,button44;
     private Button bthome;
+    private SharedPreferences prefs;
     private Random random=new Random();
+    private TextView yourScore,bestScore;
     private ArrayList<String> wordList;
     public ArrayList<String> userWord;
     public String[] str1=new String[5];
 
     public char c1,c2,c3,c4;
-    public int temp,i,v1,v2,v3,v4,chance=0,flag=0;
+    public int temp,i,v1,v2,v3,v4,chance=0,flag=0,score=0,best;
     public String str2,s1,s2,s3,s4,a1="",a2="",a3="",a4="";
     public boolean b1,b2,b3,b4;
     private TrieNode root;
@@ -46,6 +51,11 @@ public class Game extends AppCompatActivity implements View.OnClickListener {
         button33=(Button)findViewById(R.id.button3);
         button44=(Button)findViewById(R.id.button4);
         bthome =(Button)findViewById(R.id.home);
+        yourScore=(TextView)findViewById(R.id.yourScore);
+        bestScore=(TextView)findViewById(R.id.bestScore);
+        prefs = this.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
+
+
 
         wordList=new ArrayList<>();
         userWord=new ArrayList<>(5);
@@ -122,6 +132,16 @@ public class Game extends AppCompatActivity implements View.OnClickListener {
                 btn22.setTextColor(Color.GREEN);
                 btn33.setTextColor(Color.GREEN);
                 btn44.setTextColor(Color.GREEN);
+                score+=5;
+                yourScore.setText(Integer.toString(score));
+                best = prefs.getInt("score", 0);
+                if (best > score) {
+                    bestScore.setText(Integer.toString(best));
+                } else {
+                    best = score;
+                    bestScore.setText(Integer.toString(best));
+                    prefs.edit().putInt("score", best).apply();
+                }
                 nextword();
                 flag=1;
 
@@ -219,6 +239,7 @@ public class Game extends AppCompatActivity implements View.OnClickListener {
             btn22.setTextColor(Color.BLACK);
             btn33.setTextColor(Color.BLACK);
             btn44.setTextColor(Color.BLACK);
+
 
         }
         switch (v.getId()){

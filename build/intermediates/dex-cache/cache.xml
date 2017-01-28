@@ -3,21 +3,21 @@
 
     <item
         is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_4b9516cd054035b8ac56b586f8b85340856707b3.jar" />
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_db53c760510ddd4e29adc11de96657fcc4b2f5ce.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_1d8920603501713d9dcfe25ed7ee311802233ec9.jar" />
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_d9534659ed6f33151e5f1f18c898c5e78b86fb26.jar" />
     </item>
     <item
         is-multidex="false"
@@ -26,115 +26,115 @@
         optimize="true"
         revision="24.0.3"
         sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_a368ea9288a17fbffa1d0ff67fff021803cc51c7.jar" />
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_a368ea9288a17fbffa1d0ff67fff021803cc51c7.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_171c4892200211b99e2ed67c9f99a05f025d3bb8.jar" />
+        sha1="d5c731fc64c03dfe04d51134955b483551c35849">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_2c014554e43e358ffc97aec033f6a0800cce6c04.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_2ab65ef1b9588f20e391c8f4cb87e8258c97fad4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_91c46e3042591e1481a1d30d8a2f22856f60febd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_23a292ab124f065c668aaea9b0a729eaaeb34b99.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_54f60eebe6f45fae1d5906d80be2bdd752962156.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_4ffe13a712aca6853284cd34b24c4b23d03a07bb.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_dfafbfb25bad28a02654310006b631fa7dc7ba5f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_45e76106f15b2fab21b87d06b09d18db622d1a90.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_16b734c0e129d8c3004e092b2ee77ef62f627ed8.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_641fcf13b753f41560aab7fcfe442a17724c0434.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_b1c8684ceeba2e15f884cc3408fd03990391ad53.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
         sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/home/jsrathore/opens/WordGame/WordGame/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_d35eaef3253c524dfcfa5020fe01a1d056555452.jar" />
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_25e3b2e56f8bb26eb6149e23e9a3b8123e041256.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_48a4bff6a131f0d3f11667bbee2570332c67ded3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_d94f94d2b9eef7a2dcc146f3090e4cb0dac96c69.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_9ec3a38b92885771d076719250f8c83b7b209b9c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f5324e9a8b7faac51f731451b1438585f6f1dce6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_4e2b6430b29993b5da0447603a4e06b679d893a0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_a4f9808460816977c3d7f8d304c7b804076e8369.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f92ffdd473050426e709ea245b2b57b2067fa12c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_65feb6a8685857daaf8c5dd7f372b37b12f0a021.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_2d7fba8b9d474367ecc6cd45e8c8898400963d40.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
+        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_eb0ff58ebd2cbffa7f7b94bbb069a437ee5119db.jar" />
     </item>
 
 </items>

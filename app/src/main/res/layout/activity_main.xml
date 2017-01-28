@@ -21,23 +21,14 @@
 
 
     <LinearLayout
-        android:layout_marginTop="160dp"
-        android:layout_below="@+id/textView"
         android:id="@+id/layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="false"
+        android:orientation="vertical"
+        android:layout_above="@+id/linearLayout"
         android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp">
 
-        android:orientation="vertical">
-
-        <Button
-            android:id="@+id/playGame"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="@mipmap/ic_launcher"
-
-            />
         <TextView
             android:layout_gravity="center"
             android:layout_width="wrap_content"
@@ -47,13 +38,25 @@
 
     </LinearLayout>
 
+    <Button
+        android:id="@+id/playGame"
+        android:layout_width="107dp"
+        android:layout_height="79dp"
+        android:background="@mipmap/ic_launcher"
+
+        android:layout_above="@+id/layout"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp" />
+
     <LinearLayout
-        android:layout_below="@+id/layout"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentRight="false"
-
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="11dp"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true">
 
         <Button
             android:id="@+id/exit"
@@ -71,8 +74,5 @@
 
     </LinearLayout>
 
-
-
-   
 
 </RelativeLayout>
