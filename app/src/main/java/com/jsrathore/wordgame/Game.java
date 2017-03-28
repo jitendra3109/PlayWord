@@ -25,7 +25,7 @@ import java.util.StringTokenizer;
 
 public class Game extends AppCompatActivity implements View.OnClickListener {
     private Button btn11 , btn22, btn33, btn44, button11,button22,button33,button44;
-    private Button bthome;
+    private Button bthome,btend,btexit;
     private SharedPreferences prefs;
     private Random random=new Random();
     private TextView yourScore,bestScore;
@@ -51,9 +51,13 @@ public class Game extends AppCompatActivity implements View.OnClickListener {
         button33=(Button)findViewById(R.id.button3);
         button44=(Button)findViewById(R.id.button4);
         bthome =(Button)findViewById(R.id.home);
+        btend = (Button)findViewById(R.id.endGame);
+        btexit = (Button)findViewById(R.id.exit);
         yourScore=(TextView)findViewById(R.id.yourScore);
         bestScore=(TextView)findViewById(R.id.bestScore);
         prefs = this.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
+        best = prefs.getInt("score", 0);
+        bestScore.setText(Integer.toString(best));
 
 
 
@@ -117,6 +121,8 @@ public class Game extends AppCompatActivity implements View.OnClickListener {
         button33.setOnClickListener(this);
         button44.setOnClickListener(this);
         bthome.setOnClickListener(this);
+        btend.setOnClickListener(this);
+        btexit.setOnClickListener(this);
     }
 
     public boolean isWord(String word) {
@@ -243,9 +249,20 @@ public class Game extends AppCompatActivity implements View.OnClickListener {
 
         }
         switch (v.getId()){
+            case R.id.exit:
+                    Intent homeIntent = new Intent(Intent.ACTION_MAIN);
+                    homeIntent.addCategory( Intent.CATEGORY_HOME );
+                    homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(homeIntent);
+                break;
             case R.id.home:
                 Intent k=new Intent(Game.this ,MainActivity.class);
                 startActivity(k);
+                break;
+            case R.id.endGame:
+                Intent j=new Intent(Game.this ,Result.class);
+                startActivity(j);
+                break;
             case R.id.button1:
 
                 if (b1==false) {

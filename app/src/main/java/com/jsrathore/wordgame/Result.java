@@ -1,20 +1,32 @@
 package com.jsrathore.wordgame;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.TextView;
+
+import static com.jsrathore.wordgame.R.id.bestScore;
 
 public class Result extends AppCompatActivity {
     private Button Exitbt,RePlaybt;
+    private int best;
+    private TextView yourScore;
+    private SharedPreferences prefs;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
-
+        yourScore = (TextView)findViewById(R.id.result);
         Exitbt=(Button)findViewById(R.id.exit);
-        RePlaybt=(Button)findViewById(R.id.replay);
+        RePlaybt=(Button)findViewById(R.id.rePlay);
+
+        prefs = this.getSharedPreferences("myPrefsKey", Context.MODE_PRIVATE);
+        best = prefs.getInt("score", 0);
+        yourScore.setText(Integer.toString(best));
 
 
 
