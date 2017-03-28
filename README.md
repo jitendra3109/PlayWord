@@ -10,8 +10,10 @@ Play this game have Fun :)
 
 
 
+
 How to Play?
 There is four key of charater and you have to press one by one any of them and make a valid word.
+[You can get here](https://github.com/jsroyal/PlayWord/app/build/outputs/apk/app-debug.apk)
 
 ## Running the tests
 
