@@ -3,138 +3,138 @@
 
     <item
         is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_db53c760510ddd4e29adc11de96657fcc4b2f5ce.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_d9534659ed6f33151e5f1f18c898c5e78b86fb26.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_a368ea9288a17fbffa1d0ff67fff021803cc51c7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
         sha1="d5c731fc64c03dfe04d51134955b483551c35849">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_2c014554e43e358ffc97aec033f6a0800cce6c04.jar" />
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-24.2.1_1bba4c831be47546044d71dc76ce47694a15ea18.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_25e3b2e56f8bb26eb6149e23e9a3b8123e041256.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="867dad63c33388ff8c7644b236579355036d075f">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_48a4bff6a131f0d3f11667bbee2570332c67ded3.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_d94f94d2b9eef7a2dcc146f3090e4cb0dac96c69.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_9ec3a38b92885771d076719250f8c83b7b209b9c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f5324e9a8b7faac51f731451b1438585f6f1dce6.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_4e2b6430b29993b5da0447603a4e06b679d893a0.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_a4f9808460816977c3d7f8d304c7b804076e8369.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="24.0.3"
-        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_f92ffdd473050426e709ea245b2b57b2067fa12c.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
         sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_65feb6a8685857daaf8c5dd7f372b37b12f0a021.jar" />
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-24.2.1_e83f615109895a9e24e094fb22ba58b5976d2870.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="935a969265b2a166b2d20415423f5f6e90fe16e0">
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_00beff090a6088e4badbae5be9dc533db408554f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="7e4389bd133359a2ff88623ff1e4ff93d6e6f780">
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_27fa0f92071dfa5265fde6e999799ade24e6f5c6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="867dad63c33388ff8c7644b236579355036d075f">
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_7f65501e7c654d1539297f907d52a1257d174a12.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/libs/internal_impl-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="fbf8da429efd5ad21e02e3e5ecaa1efc4167878d">
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_a2724cc66e47fc5f577d0a0c4d2430b9778b4438.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/android-sdk-linux/extras/android/m2repository/com/android/support/support-annotations/24.2.1/support-annotations-24.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="8de3aafecbdf98a61db6427f008f2d515bcd2544">
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/support-annotations-24.2.1_671ab989151aa7d1896d45dae302f5f4b5405cbc.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/libs/internal_impl-24.2.1.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
         sha1="5f64d657e838e8375135c0f6057a7ff8fab6a50e">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_2d7fba8b9d474367ecc6cd45e8c8898400963d40.jar" />
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/internal_impl-24.2.1_745a625b4a3ccb75c1bc9cd09501c8146011fd3d.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/home/jsrathore/opens/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/24.2.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="24.0.3"
         sha1="e7f3132168957eefc46229fc32c3bd464642b71e">
-        <dex dex="/home/jsrathore/opens/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_eb0ff58ebd2cbffa7f7b94bbb069a437ee5119db.jar" />
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-24.2.1_66f4a9e63228fe77a5300da54c3b84a75cf0a569.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="94bc1dfb84dcc8b6f6f8f7cc726d7b2dd39c1574">
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-24.2.1_ab240b6b595b7a384001197d172a54c7e8fbfb0a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="43b2dba6b5a0b14527961b75329d0b90025f15ea">
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-24.2.1_27afe979e4f467c09338af940882038db088b97b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-fragment/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="b9a1ac78ad7ef3abedc4a4b30cd92bcacb939d1f">
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-24.2.1_4141f9edf09f82b9e8539829fc4d528196cc1161.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="0ecb4b595fa0f0f8018a149ace3ea6525624f94e">
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-24.2.1_7379b829a9b7c31dffc83201806c835962bec3a7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="9c4c3bc902450c39ed54de170db4fb12aea20a35">
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-24.2.1_d0c0479d7fd688c4dc6d9d353f41e9d054c62206.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/jsroyal/Github/PlayWord/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/24.2.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="24.0.3"
+        sha1="09b462bbcb77650284bd6614f1a32f360ef369f8">
+        <dex dex="/home/jsroyal/Github/PlayWord/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-24.2.1_4e2a2455d777d1f87e1c73ad2ad4e28517aee0bd.jar" />
     </item>
 
 </items>

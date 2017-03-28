@@ -3,6 +3,13 @@
 This is four character exist english word game.Using Trie data structure for efficent match.
 Play this game have Fun :)
 
+| ![](/Screenshots/Now/1.png) | ![](/Screenshots/Now/2.png) | 
+|-----------------------------|-----------------------------|
+| ![](/Screenshots/Now/3.png) | ![](/Screenshots/Now/4.png) |
+
+
+
+
 How to Play?
 There is four key of charater and you have to press one by one any of them and make a valid word.
 
