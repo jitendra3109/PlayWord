@@ -254,14 +254,17 @@ public class Game extends AppCompatActivity implements View.OnClickListener {
                     homeIntent.addCategory( Intent.CATEGORY_HOME );
                     homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(homeIntent);
+                finish();
                 break;
             case R.id.home:
                 Intent k=new Intent(Game.this ,MainActivity.class);
                 startActivity(k);
+                finish();
                 break;
             case R.id.endGame:
                 Intent j=new Intent(Game.this ,Result.class);
                 startActivity(j);
+                finish();
                 break;
             case R.id.button1:
 

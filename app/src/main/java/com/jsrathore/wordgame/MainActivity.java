@@ -22,6 +22,7 @@ private Button play, Exit;
             public void onClick(View v) {
                 Intent i=new Intent(MainActivity.this ,Game.class);
                 startActivity(i);
+                finish();
             }
         });
 
@@ -32,6 +33,7 @@ private Button play, Exit;
                 homeIntent.addCategory( Intent.CATEGORY_HOME );
                 homeIntent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(homeIntent);
+                finish();
             }
         });
     }
